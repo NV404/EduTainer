@@ -2,9 +2,9 @@
   "private": true,
   "sideEffects": false,
   "scripts": {
-    "build": "remix build:*",
-    "dev": "remix dev*",
-    "start": "remix build",
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
     "typecheck": "tsc",
     "build:remix": "remix build",
     "build:worker": "remix-pwa build",
